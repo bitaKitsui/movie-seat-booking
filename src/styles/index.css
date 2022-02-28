@@ -1,0 +1,102 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #242233;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.booking__form {
+    margin: 20px 0;
+    height: 26px;
+    display: flex;
+    align-items: center;
+}
+
+.booking__label {
+    height: 100%;
+    margin-right: 10px;
+}
+
+.booking__select {
+    background-color: white;
+    color: black;
+    height: 100%;
+    align-items: center;
+    font-size: 14px;
+    padding: 0 15px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.booking__list {
+    margin: 16px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.list__item {
+    display: flex;
+    align-items: center;
+}
+
+.js-seat {
+    margin: 3px;
+    display: block;
+    width: 15px;
+    height: 12px;
+    background-color: #444551;
+    border-radius: 10px 10px 0 0;
+}
+
+.js-seat--selected {
+    background-color: #6FEAF6;
+}
+
+.js-seat--occupied {
+    background-color: white;
+}
+
+.js-seat__description {
+    color: #777777;
+    font-size: 14px;
+    margin-left: 2px;
+}
+
+.js-seat--left-second-row {
+    margin-right: 18px;
+}
+
+.js-seat--right-second-row {
+    margin-left: 18px;
+}
+
+.screen-wrapper {
+    margin-bottom: 30px;
+    perspective: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.screen {
+    width: 198px;
+    height: 70px;
+    background-color: white;
+    box-shadow: 0 0 20px #656570;
+    transform: rotateX(-45deg);
+    margin-bottom: 15px;
+}
+
+.js-row {
+    display: flex;
+}
+
+.calculation {
+    color: #6FEAF6;
+}
